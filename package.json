@@ -1,5 +1,5 @@
 {
-  "name": "hwinterface",
+  "name": "React/Electron",
   "version": "1.0.0",
   "description": "Interface for remote hardware devices",
   "main": "main.js",
