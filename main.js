@@ -14,7 +14,7 @@ function createWindow () {
     }
   })
 
-  win.setFullScreen(true);
+  //win.setFullScreen(true);
 
   // and load the index.html of the app.
   win.loadURL(`file://${__dirname}/index.html`);

@@ -2,12 +2,12 @@
   "name": "hwinterface",
   "version": "1.0.0",
   "description": "Interface for remote hardware devices",
-  "main": "index.js",
+  "main": "main.js",
   "target": "electron-main",
   "scripts": {
     "start": "electron .",
-    "dev": "webpack --mode development --watch ./src/index.js --output reactIndex.js",
-    "build": "webpack --mode production ./src/index.js --output reactIndex.js",
+    "dev": "webpack --mode development --watch ./src/index.js --output ReactApp.js",
+    "build": "webpack --mode production ./src/index.js --output ReactApp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
